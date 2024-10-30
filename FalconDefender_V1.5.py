@@ -54,20 +54,13 @@ def yara_sig_check(file, rules):
 
             return file
 
-    # TODO: We want to look for a solution to the problem of not being able to scan the file
-    #  due to special characters or permissions
-
-    except yara.Error:  # as yara_error
+    except yara.Error:
         pass
-        # print(f"YARA error: {yara_error}") -- bug need to be fixed -- 10/30/2024
-    except PermissionError:  # as perm_error
+    except PermissionError:
         pass
-        # print(f"Permission error: {perm_error}") Handle permission -- bug need to be fixed -- 10/30/2024
-    except FileNotFoundError:  # as fnf_error
-        # print(f"File not found error: {fnf_error}") Handle file not found -- bug need to be fixed -- 10/30/2024
+    except FileNotFoundError:
         pass
-    except Exception:  # as unexpected
-        # print(f"An unexpected error occurred: {unexpected}") -- bug need to be fixed -- 10/30/2024
+    except Exception:
         pass
 
 
@@ -245,13 +238,13 @@ def timer():
 
 
 def anti_virus_mail(scan_date, num_files, num_threats, scanned_path, recommendations):
-    password = "pqwz wlvj icrw cuap"
+    password = ""
     msg = MIMEMultipart()
-    msg['From'] = "ayhamasfoor1@gmail.com"
+    msg['From'] = ""
     msg['To'] = f"{main_email}"
     msg['Subject'] = "Update on Your Latest Periodic Scan"
     body = f"""
-        Dear Ayham,
+        Dear ,
 
         Greetings,
 
@@ -316,7 +309,7 @@ if __name__ == "__main__":
     delay_seconds = 10
     rule_dict = 0
     main_path = 'test'
-    main_email = "ayhamasfoor1@ieee.org"
+    main_email = ""
     number_of_files = ""
     malicious_files = ""
     scanned_time = ""
