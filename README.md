@@ -50,8 +50,8 @@ To clone this repository and run the antivirus software locally, follow these st
 2. Navigate to the directory where you want to clone the repository.
 3. Use the following command to clone the repository:
 
-```py
-[git clone https://github.com/AyhamAsfoor/Anti_Virus_V1.4](https://github.com/AyhamAsfoor/Falcon_Defender/blob/main/FalconDefender_V1.4.py)
+```html
+https://github.com/AyhamAsfoor/Falcon_Defender/blob/main/FalconDefender_V1.4.py
 ```
 
 Once the repository is cloned, navigate into the project directory:
