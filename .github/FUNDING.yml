@@ -1,14 +1,5 @@
 # These are supported funding model platforms
 
-github: ['AyhamAsfoor']
-patreon: ['AyhamAsfoor']
-open_collective: your_open_collective_username
-ko_fi: your_ko_fi_username
-community_bridge: your_project_name
-liberapay: your_liberapay_username
-issuehunt: your_issuehunt_username
-lfx_crowdfunding: your_project_name
-polar: your_polar_username
-buy_me_a_coffee: your_bmac_username
-thanks_dev: your_thanksdev_username
+github: [AyhamAsfoor]
+patreon: [AyhamAsfoor]
 custom: ['https://www.linkedin.com/in/ayham-asfoor-949630256/']
