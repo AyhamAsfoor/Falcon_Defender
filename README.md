@@ -66,3 +66,6 @@ cd <repalce_project_directory>
 ## License
 This project is licensed under the Apache License 2.0.
 You can find the full text of the license in the LICENSE file.
+
+### Support Us 🥤:
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-donate-yellow?style=flat-square&logo=buy-me-a-coffee&logoColor=white)](https://www.buymeacoffee.com/ayhamasfoor)
