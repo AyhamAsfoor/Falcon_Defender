@@ -63,6 +63,16 @@ cd <repalce_project_directory>
 
 >[!IMPORTANT]
 > If you have any issues, please don't be shy to get in touch with me.
+
+## Structure
+```mermaid
+graph TD;
+   Falcon Defender Project-->B;
+   Falcon Defender Project-->C;
+   Falcon Defender Project-->D;
+   Falcon Defender Project-->A;
+```
+
 ## License
 This project is licensed under the Apache License 2.0.
 You can find the full text of the license in the LICENSE file.
