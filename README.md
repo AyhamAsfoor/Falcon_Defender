@@ -81,6 +81,15 @@ graph TD;
    Services-->Main;
    Service_2_(Path)-->Main;
    Get_Drive-->Main;
+   Main-->Get_OS_Type;
+   Get_OS_Type-->MK_Dict;
+   |Data_Base_of_Signature|-->MK_Dict;
+   MK_Dict-->Parse_Yara_File;
+   Parse_Yara_File-->DIR_Search;
+   Parse_Yara_File-->Yara_Sig_Check;
+   DIR_Search-->Write_File;
+   Yara_Sig_Check-->quarantine_file;
+   quarantine_file-->Write_File;
 ```
 
 ## License
