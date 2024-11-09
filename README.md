@@ -98,11 +98,11 @@ graph TD;
    style Service_2_Path fill:#FFC300;
    style Service_3_Drive fill:#FFC300;
    style Service_4_Periodic fill:#FFC300;
-   style Data_Base_of_Signature fill:##f58200;
+   style Data_Base_of_Signature fill:#f58200;
    style Report_txt fill:#ac270b;
    style Result fill:#ac270b;
    style True fill:#ac270b;
-   style Result fill:#0b74ac;
+   style False fill:#0b74ac;
 ```
 
 ## License
