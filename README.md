@@ -75,7 +75,12 @@ graph TD;
    Falcon_Defender_Project-->Service_4_(Periodic);
    Service_4_(Periodic)-->Initial_Main;
    Initial_Main-->Timer;
-   Timer-->Initial_Main
+   Timer-->Initial_Main;
+   Timer-->Main;
+   Services-->Main;
+   Services-->Main;
+   Service_2_(Path)-->Main;
+   Get_Drive-->Main;
 ```
 
 ## License
