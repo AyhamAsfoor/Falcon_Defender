@@ -93,6 +93,14 @@ graph TD;
    quarantine_file-->|If the file is malicious| True;
    Write_File-->Report_txt[Report.txt];
    Write_File-->Result[Result];
+
+   style Service_1_Browse fill:#ff0000;
+   style Service_2_Path fill:#ff0000;
+   style Service_3_Drive fill:#ff0000;
+   style Yara_Sig_Check fill:#ff0000;
+   style Write_File fill:#ff0000;
+   style Report_txt fill:#ff0000;
+   style Result fill:#ff0000;
 ```
 
 ## License
