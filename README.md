@@ -89,8 +89,8 @@ graph TD;
    DIR_Search-->Write_File;
    Yara_Sig_Check-->quarantine_file;
    quarantine_file-->Write_File;
-   Yara_Sig_Check-->|If the file is not malicious| o;
-   quarantine_file-->|If the file is malicious| Write_File;
+   Yara_Sig_Check-->|If the file is not malicious| False;
+   quarantine_file-->|If the file is malicious| True;
    Write_File-->Report_txt[Report.txt];
    Write_File-->Result[Result];
 ```
