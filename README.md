@@ -67,10 +67,10 @@ cd <repalce_project_directory>
 ## Structure
 ```mermaid
 graph TD;
-   Falcon Defender Project-->B;
-   Falcon Defender Project-->C;
-   Falcon Defender Project-->D;
-   Falcon Defender Project-->A;
+   Falcon_Defender_Project-->B;
+   Falcon_Defender_Project-->C;
+   Falcon_Defender_Project-->D;
+   Falcon_Defender_Project-->A;
 ```
 
 ## License
