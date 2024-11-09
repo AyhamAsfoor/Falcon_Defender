@@ -1,4 +1,4 @@
-# Anti Virus
+# Falcon Defender
 [![License](https://img.shields.io/github/license/AyhamAsfoor/Anti_Virus_V1.4?logo=Github)](https://github.com/AyhamAsfoor/Anti_Virus_V1.4/blob/main/LICENSE)
 [![GitHub top language](https://img.shields.io/github/languages/top/AyhamAsfoor/Anti_Virus_V1.4?logo=github)](https://github.com/AyhamAsfoor/Anti_Virus_V1.4)
 [![Code Size](https://img.shields.io/github/languages/code-size/AyhamAsfoor/Falcon_Defender?logo=github)](https://github.com/AyhamAsfoor/Falcon_Defender)
@@ -51,7 +51,7 @@ To clone this repository and run the antivirus software locally, follow these st
 3. Use the following command to clone the repository:
 
 ```py
-https://github.com/AyhamAsfoor/Falcon_Defender/blob/main/FalconDefender_V1.5.py
+https://github.com/AyhamAsfoor/Falcon_Defender/blob/main/Falcon_Defender.py
 ```
 
 Once the repository is cloned, navigate into the project directory:
