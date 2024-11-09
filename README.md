@@ -94,13 +94,15 @@ graph TD;
    Write_File-->Report_txt[Report.txt];
    Write_File-->Result[Result];
 
-   style Service_1_Browse fill:#ff0000;
-   style Service_2_Path fill:#ff0000;
-   style Service_3_Drive fill:#ff0000;
-   style Yara_Sig_Check fill:#ff0000;
-   style Write_File fill:#ff0000;
-   style Report_txt fill:#ff0000;
-   style Result fill:#ff0000;
+   style Service_1_Browse fill:#FFC300;
+   style Service_2_Path fill:#FFC300;
+   style Service_3_Drive fill:#FFC300;
+   style Service_4_Periodic fill:#FFC300;
+   style Data_Base_of_Signature fill:##f58200;
+   style Report_txt fill:#ac270b;
+   style Result fill:#ac270b;
+   style True fill:#ac270b;
+   style Result fill:#0b74ac;
 ```
 
 ## License
