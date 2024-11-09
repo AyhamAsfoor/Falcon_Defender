@@ -67,19 +67,18 @@ cd <repalce_project_directory>
 ## Structure
 ```mermaid
 graph TD;
-   Falcon_Defender_Project-->Service_1_(Browse);
-   Service_1_(Browse)-->Services;
-   Falcon_Defender_Project-->Service_2_(Path);
-   Falcon_Defender_Project-->Service_3_(Drive);
-   Service_3_(Drive)-->Get_Drive;
-   Falcon_Defender_Project-->Service_4_(Periodic);
-   Service_4_(Periodic)-->Initial_Main;
+   Falcon_Defender_Project-->Service_1_Browse;
+   Service_1_Browse-->Services;
+   Falcon_Defender_Project-->Service_2_Path;
+   Falcon_Defender_Project-->Service_3_Drive;
+   Service_3_Drive-->Get_Drive;
+   Falcon_Defender_Project-->Service_4_Periodic;
+   Service_4_Periodic-->Initial_Main;
    Initial_Main-->Timer;
    Timer-->Initial_Main;
    Timer-->Main;
    Services-->Main;
-   Services-->Main;
-   Service_2_(Path)-->Main;
+   Service_2_Path-->Main;
    Get_Drive-->Main;
    Main-->Get_OS_Type;
    Get_OS_Type-->MK_Dict;
@@ -90,10 +89,10 @@ graph TD;
    DIR_Search-->Write_File;
    Yara_Sig_Check-->quarantine_file;
    quarantine_file-->Write_File;
-   Yara_Sig_Check->>O: If the file not Malicious
-   quarantine_file->>O: If the file Malicious
-   Write_File->>O: Report.txt
-   Write_File->>O: Result!
+   Yara_Sig_Check-->|If the file is not malicious| Write_File;
+   quarantine_file-->|If the file is malicious| Write_File;
+   Write_File-->Report_txt[Report.txt];
+   Write_File-->Result[Result];
 ```
 
 ## License
