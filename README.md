@@ -78,7 +78,7 @@ graph TD;
    Timer-->Initial_Main;
    Timer-->Main;
    Services-->|Directory |Main;
-   Service_2_path-->Main;
+   Service_2_Path-->Main;
    Get_Drive-->Main;
    Main-->Get_OS_Type;
    Get_OS_Type-->MK_Dict;
