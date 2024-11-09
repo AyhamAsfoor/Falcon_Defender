@@ -94,10 +94,11 @@ graph TD;
    Write_File-->Report_txt[Report.txt];
    Write_File-->Result[Result];
 
-   style Service_1_Browse fill:#FFC300;
-   style Service_2_Path fill:#FFC300;
-   style Service_3_Drive fill:#FFC300;
-   style Service_4_Periodic fill:#FFC300;
+   style Falcon_Defender_Project fill:#25940f;
+   style Service_1_Browse fill:#010f76;
+   style Service_2_Path fill:#010f76;
+   style Service_3_Drive fill:#010f76;
+   style Service_4_Periodic fill:#010f76;
    style Data_Base_of_Signature fill:#f58200;
    style Report_txt fill:#ac270b;
    style Result fill:#ac270b;
