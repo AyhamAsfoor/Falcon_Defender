@@ -93,7 +93,8 @@ graph TD;
    Yara_Sig_Check->>O: If the file not Malicious
    quarantine_file->>O: If the file Malicious
    Write_File->>O: Report.txt
-   Write_File->>O: Result 
+   Write_File->>O: Result!
+   end 
 ```
 
 ## License
