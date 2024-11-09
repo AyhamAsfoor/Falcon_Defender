@@ -64,7 +64,7 @@ cd <repalce_project_directory>
 >[!IMPORTANT]
 > If you have any issues, please don't be shy to get in touch with me.
 
-## Structure
+## Flowchart Structure
 ```mermaid
 graph TD;
    Falcon_Defender_Project-->Service_1_Browse;
