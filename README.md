@@ -68,9 +68,14 @@ cd <repalce_project_directory>
 ```mermaid
 graph TD;
    Falcon_Defender_Project-->Service_1_(Browse);
+   Service_1_(Browse)-->Services;
    Falcon_Defender_Project-->Service_2_(Path);
    Falcon_Defender_Project-->Service_3_(Drive);
+   Service_3_(Drive)-->Get_Drive;
    Falcon_Defender_Project-->Service_4_(Periodic);
+   Service_4_(Periodic)-->Initial_Main;
+   Initial_Main-->Timer;
+   Timer-->Initial_Main
 ```
 
 ## License
