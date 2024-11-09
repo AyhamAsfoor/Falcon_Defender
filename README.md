@@ -94,7 +94,6 @@ graph TD;
    quarantine_file->>O: If the file Malicious
    Write_File->>O: Report.txt
    Write_File->>O: Result!
-   end 
 ```
 
 ## License
